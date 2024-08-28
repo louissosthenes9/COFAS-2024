@@ -1,0 +1,36 @@
+.custom-bg{
+  background-color: #c1892d;
+}
+
+.custom-input{
+  background-color: #fbf4f4;
+}
+
+.file-upload-box {
+  border: 2px  #007bff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fbf4f4;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.file-upload-box:hover {
+    background-color: #f1f1f1;
+}
+
+.file-upload-input {
+    display: none;
+}
+
+.form form label{
+  color: #b4843a;
+  font-weight: bolder;
+  font-family: 'Sans Serif';
+  font-size: 20px;
+}
+
+
+
