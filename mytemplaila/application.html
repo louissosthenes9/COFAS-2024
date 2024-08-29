@@ -11,15 +11,15 @@
 <body>
 
     <!-- topbar -->
-    <main class="container-fluid custom-bg text-center d-flex p-5 justify-content-between px-md-0">
+    <main class="container-fluid custom-bg text-center d-flex p-2 justify-content-between px-md-0" id="home">
         <div class="mb-3 ms-3">
             <img class="img-fluid float-start d-none d-md-block" width="150" height="150" src="Ellipse 799.svg" alt="country logo">
         </div>
 
-        <div class="mt-4" >
+        <div class="mt-4">
             <p class="h2 fw-bolder text-white">
                 TANZANIA COMMISSION FOR SCIENCE AND TECHNOLOGY (COSTECH) <br> <br>
-                <span class="h3 ">COSTECH FIELD APPLICATION SYSTEM (COFAS)</span>
+                <span class="h3">COSTECH FIELD APPLICATION SYSTEM (COFAS)</span>
             </p>
         </div>
 
@@ -30,28 +30,28 @@
     <!-- end of topbar -->
 
     <!-- section -->
-    <div class="container custom-bg mt-5 margl px-4 pt-2 mb-5">
-        <h1 class="text-white text-center fw-bold">COFAS APPLICATION FORM</h1>
+    <div class="container custom-bg mt-5 margl px-5 pt-2 mb-5">
+        <h1 class="text-white text-center fw-bold mt-3">COFAS APPLICATION FORM</h1>
         <div class="form">
             <form action="" class="pb-4" method="">
-                <div class="portion1 mt-4">
+                <div class="portion1 mt-5">
                     <label for="" class="form-label text-white">Organization/Institution details</label>
-                    <div class="myinputs d-block d-xl-flex justify-content-around mt-2">
+                    <div class="myinputs d-block d-xl-flex justify-content-around mt-3">
                         <input type="text" class="form-control custom-input " placeholder="Name">
                         <input type="text" class="form-control custom-input mt-3 mt-xl-0 ms-xl-3" placeholder="Field of Study">
                         <input type="number" class="form-control custom-input mt-3 mt-xl-0 ms-xl-3" placeholder="Year of Study">
                     </div>
                 </div>
 
-                <div class="portion2 mt-4">
+                <div class="portion2 mt-5">
                     <label for="person" class="form-label text-white">Personal details</label>
-                    <div class="myinputs d-block d-xl-flex justify-content-between mt-2">
+                    <div class="myinputs d-block d-xl-flex justify-content-between mt-3">
                         <input type="text" class="form-control custom-input" placeholder="Mailing Adress">
                         <input type="number" class="form-control custom-input mt-3 mt-xl-0 ms-xl-5" placeholder="Phone Number">
                     </div>
                 </div>
 
-                <div class="portion3 justify-content-between d-block d-xl-none mt-4">
+                <div class="portion3 justify-content-between d-block d-xl-none mt-5">
                     <div>
                         <label for="formfile" class="form-label text-white">Reference Letter</label>
                         <input type="file" id="formfile" class="form-control">
@@ -68,10 +68,10 @@
                     </div>
                 </div>
 
-                <div class="portion3 justify-content-between d-none d-xl-flex mt-4">
+                <div class="portion3 justify-content-between d-none d-xl-flex mt-5">
                     <div class="one ms-0 ms-sm-0">
                         <label for="ref" class="form-label text-white">Reference Letter</label>
-                        <div class="file-upload-box mtp" onclick="document.getElementById('fileInput').click();">
+                        <div class="file-upload-box mt-4" onclick="document.getElementById('fileInput').click();">
                             <img src="image 29-1.svg" alt="cloud"> <br>
                             Choose your files here
                         </div>
@@ -79,15 +79,15 @@
                     </div>
                     <div class="two ms-5 ms-md-2">
                         <label for="acad" class="form-label text-white" >Latest academic transcript</label>
-                        <div class="file-upload-box mtp" onclick="document.getElementById('fileInput').click();">
+                        <div class="file-upload-box mt-4" onclick="document.getElementById('fileInput').click();">
                             <img src="image 29-1.svg" alt="cloud"> <br>
                             Choose your files here
                         </div>
                         <input type="file" id="fileInput" class="file-upload-input">
                     </div>
                     <div class="three ms-5 ms-md-2">
-                        <label for="id" class="form-label text-white">Copy of Identifiction Card</label>
-                        <div class="file-upload-box mtp" onclick="document.getElementById('fileInput').click();">
+                        <label for="id" class="form-label text-white">Copy of Identification Card</label>
+                        <div class="file-upload-box mt-4" onclick="document.getElementById('fileInput').click();">
                             <img src="image 29-1.svg" alt="cloud"> <br>
                             Choose your files here
                         </div>
@@ -95,17 +95,19 @@
                     </div>
                 </div>
 
-                <div class="portion4 text-center mt-3">
-                    <button type="submit" class="btn btn-warning">SUBMIT APPLICATION</button>
+                <div class="portion4 text-center  mt-5 mb-4">
+                    <button type="submit" class="btn btn-warning fs-5">SUBMIT APPLICATION</button>
                 </div>    
+                <a href="landing.html" class="text-decoration-none text-center"><p class="text-info">Go back</p> </a>
             </form>
         </div>
     </div>
     <!-- end of section -->
 
     <!-- footer -->
-    <footer class="custom-bg text-center text-white py-3">
-        <p class="mb-0">&copy; 2024 COSTECH. All Rights Reserved.</p>
+    <footer class="custom-bg text-center text-white py-3 mt-auto">
+        <p>&copy; 2024 COSTECH Field Application System. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
     </footer>
     <!-- end of footer -->
 
