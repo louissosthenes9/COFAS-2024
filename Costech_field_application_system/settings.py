@@ -35,10 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'applications',
-    'admin_panel',
-    'accounts',
-    'bootstrap'
+    'apps.applications',
+    'apps.admin_panel',
+    'apps.accounts',
+    'bootstrap5'
 
 ]
 
